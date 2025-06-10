@@ -14,7 +14,7 @@ ip,domains,product,last_seen,first_seen
 166.108.207.55,['ecs-166-108-207-55.compute.hwclouds-dns.com'],Havoc,2025-06-10,6/8/2025
 185.62.87.191,[],AsyncRAT,2025-06-10,6/8/2025
 13.247.66.80,['ec2-13-247-66-80.af-south-1.compute.amazonaws.com'],Metasploit,2025-06-10,6/8/2025
-47.52.142.159,[],Panda C2,2025-06-10,6/8/2025
+47.52.142.159,['test.pandanc.com'],Panda C2,2025-06-10,6/8/2025
 18.227.114.87,['ec2-18-227-114-87.us-east-2.compute.amazonaws.com'],Metasploit,5/21/2025,5/21/2025
 157.230.118.220,[],Hak5 Cloud C2,2025-06-10,6/8/2025
 54.219.206.191,['ec2-54-219-206-191.us-west-1.compute.amazonaws.com'],NetBus Trojan,2025-06-10,6/8/2025
@@ -78,7 +78,7 @@ ip,domains,product,last_seen,first_seen
 162.215.255.212,"['162-215-255-212.unifiedlayer.com', 'chinagardenhose.com']",Panda C2,2025-06-10,6/8/2025
 47.106.149.60,[],Panda C2,2025-06-10,6/8/2025
 149.28.209.56,['149.28.209.56.vultrusercontent.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
-167.71.217.125,[],Metasploit,2025-06-10,6/8/2025
+167.71.217.125,['odin.io'],Metasploit,2025-06-10,6/8/2025
 34.139.107.37,"['37.107.139.34.bc.googleusercontent.com', 'reinquire.com']",Cobalt Strike,2025-06-10,6/8/2025
 3.10.70.226,"['c2.jacobriggs.io', 'ec2-3-10-70-226.eu-west-2.compute.amazonaws.com']",Hak5 Cloud C2,2025-06-10,6/8/2025
 172.236.119.80,['172-236-119-80.ip.linodeusercontent.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
@@ -100,7 +100,7 @@ ip,domains,product,last_seen,first_seen
 47.90.142.15,[],Cobalt Strike,2025-06-10,6/8/2025
 1.92.100.230,['ecs-1-92-100-230.compute.hwclouds-dns.com'],Cobalt Strike C2,2025-06-10,6/8/2025
 129.146.31.103,[],Hak5 Cloud C2,2025-06-10,6/8/2025
-44.242.31.231,['ec2-44-242-31-231.us-west-2.compute.amazonaws.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
+44.242.31.231,"['c2.rorvig.net', 'ec2-44-242-31-231.us-west-2.compute.amazonaws.com']",Hak5 Cloud C2,2025-06-10,6/8/2025
 60.204.152.14,['ecs-60-204-152-14.compute.hwclouds-dns.com'],Cobalt Strike C2,2025-06-10,6/8/2025
 199.33.124.226,['199.33.124.226.rebelhosting.net'],Panda C2,2025-06-10,6/8/2025
 134.122.174.123,['jlyshopping.net'],Panda C2,2025-06-10,6/8/2025
@@ -113,10 +113,10 @@ ip,domains,product,last_seen,first_seen
 103.4.8.40,['ec2-103-4-8-40.ap-northeast-1.compute.amazonaws.com'],Cobalt Strike,2025-06-10,6/8/2025
 140.143.132.170,[],Cobalt Strike,2025-06-10,6/8/2025
 72.23.229.75,"['dynamic-acs-72-23-229-75.zoominternet.net', 'kisow.org']",Hak5 Cloud C2,2025-06-10,6/8/2025
-23.21.105.248,['ec2-23-21-105-248.compute-1.amazonaws.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
+23.21.105.248,"['hhousec2.homefirewalls.net', 'ec2-23-21-105-248.compute-1.amazonaws.com']",Hak5 Cloud C2,2025-06-10,6/8/2025
 3.13.238.127,['ec2-3-13-238-127.us-east-2.compute.amazonaws.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
 62.234.185.105,[],Cobalt Strike,2025-06-10,6/8/2025
-123.57.93.117,[],Panda C2,2025-06-10,6/8/2025
+123.57.93.117,"['aiheji.shop', 'www.aiheji.shop']",Panda C2,2025-06-10,6/8/2025
 120.79.8.122,[],Panda C2,2025-06-10,6/8/2025
 47.75.59.35,"['www.pandanc.com', 'pandanc.com']",Panda C2,2025-06-10,6/8/2025
 54.180.78.177,['ec2-54-180-78-177.ap-northeast-2.compute.amazonaws.com'],Panda C2,2025-06-10,6/8/2025
@@ -212,7 +212,7 @@ ip,domains,product,last_seen,first_seen
 43.163.116.82,[],Cobalt Strike,2025-06-10,6/8/2025
 103.69.194.227,[],Mythic,2025-06-10,6/8/2025
 103.30.76.254,[],Metasploit,2025-06-10,6/8/2025
-8.134.80.60,[],Cobalt Strike,2025-06-10,6/8/2025
+8.134.80.60,[],Cobalt Strike C2,2025-06-10,6/8/2025
 64.227.48.216,[],Mythic,2025-06-10,6/8/2025
 91.218.141.72,[],Mythic,2025-06-10,6/8/2025
 159.223.0.196,[],Mythic,2025-06-10,6/8/2025
@@ -312,7 +312,7 @@ ip,domains,product,last_seen,first_seen
 14.225.207.73,['static.vnpt.vn'],Sliver,2025-06-10,6/8/2025
 23.97.56.187,[],Sliver,2025-06-10,6/8/2025
 82.153.79.9,[],Sliver,2025-06-10,6/8/2025
-165.227.136.106,[],Sliver,2025-06-10,6/8/2025
+165.227.136.106,[],Metasploit,2025-06-10,6/8/2025
 161.35.25.134,[],Sliver,2025-06-10,6/8/2025
 206.119.167.171,[],Sliver,2025-06-10,6/8/2025
 68.183.193.39,[],Sliver,2025-06-10,6/8/2025
@@ -501,7 +501,7 @@ ip,domains,product,last_seen,first_seen
 159.89.17.182,['tavkz.duckdns.org'],Havoc,2025-06-10,6/8/2025
 121.40.221.214,['a1.w.s9mi.com'],Panda C2,6/8/2025,6/8/2025
 101.33.199.146,"['www.bkpanda.com', 'bkpanda.com']",Panda C2,2025-06-10,6/8/2025
-114.55.100.176,['360xkw.com'],Panda C2,2025-06-10,6/8/2025
+114.55.100.176,[],Panda C2,2025-06-10,6/8/2025
 47.120.61.164,[],Cobalt Strike C2,2025-06-10,6/8/2025
 116.205.242.143,['ecs-116-205-242-143.compute.hwclouds-dns.com'],Cobalt Strike,2025-06-10,6/8/2025
 47.108.89.25,"['www.zhujiaoai.cn', 'zhujiaoai.cn']",Panda C2,2025-06-10,6/8/2025
@@ -514,7 +514,7 @@ ip,domains,product,last_seen,first_seen
 23.185.168.164,"['crdking.io', 'www.crdking.io']",Panda C2,6/8/2025,6/8/2025
 95.66.124.62,"['kw.zain.com', 'www.zos.kw.zain.com', 'lrdpza.kw.zain.com']",Panda C2,2025-06-10,6/8/2025
 152.32.150.104,[],Cobalt Strike,2025-06-10,6/8/2025
-13.37.135.154,['ec2-13-37-135-154.eu-west-3.compute.amazonaws.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
+13.37.135.154,"['x.pirat.me', 'ec2-13-37-135-154.eu-west-3.compute.amazonaws.com']",Hak5 Cloud C2,2025-06-10,6/8/2025
 78.128.112.209,['ip-112-209.4vendeta.com'],Havoc,2025-06-10,6/8/2025
 149.28.83.161,"['ikeacraft.com', '149.28.83.161.vultrusercontent.com', 'www.ikeacraft.com']",Panda C2,2025-06-10,6/8/2025
 140.238.208.140,['cloudc2.nechry.net'],Hak5 Cloud C2,2025-06-10,6/8/2025
@@ -569,14 +569,14 @@ ip,domains,product,last_seen,first_seen
 206.238.115.155,[],AsyncRAT,2025-06-10,6/8/2025
 43.135.119.209,[],Quasar RAT,2025-06-10,6/8/2025
 152.32.202.240,[],Cobalt Strike,2025-06-10,6/8/2025
-204.48.27.82,[],Havoc,2025-06-10,6/8/2025
+204.48.27.82,[],Mythic,2025-06-10,6/8/2025
 165.154.244.73,[],Cobalt Strike,2025-06-10,6/8/2025
 123.249.20.20,['ecs-123-249-20-20.compute.hwclouds-dns.com'],Cobalt Strike,2025-06-10,6/8/2025
 82.218.45.182,['h082218045182.host.wavenet.at'],XtremeRAT Trojan,5/21/2025,5/21/2025
 68.168.222.125,[],Sliver,2025-06-10,6/8/2025
 106.55.180.248,['ai.gametop10.cn'],Panda C2,5/27/2025,5/27/2025
 47.122.64.112,[],Cobalt Strike,2025-06-10,6/8/2025
-139.159.157.238,['ecs-139-159-157-238.compute.hwclouds-dns.com'],Cobalt Strike C2,2025-06-10,6/8/2025
+139.159.157.238,['ecs-139-159-157-238.compute.hwclouds-dns.com'],Cobalt Strike,2025-06-10,6/8/2025
 185.14.30.133,['vds1447836.hosted-by-itldc.com'],Havoc,2025-06-10,6/8/2025
 121.40.127.134,[],Cobalt Strike,2025-06-10,6/8/2025
 8.138.189.93,[],Cobalt Strike,2025-06-10,6/8/2025
@@ -822,7 +822,7 @@ ip,domains,product,last_seen,first_seen
 202.95.14.161,[],DcRat,2025-06-10,6/8/2025
 31.130.148.231,[],Havoc,2025-06-10,6/8/2025
 43.133.5.241,['lynb.online'],Panda C2,2025-06-10,6/8/2025
-139.144.31.16,['139-144-31-16.ip.linodeusercontent.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
+139.144.31.16,"['phishcatcher.shieldvault.us', '139-144-31-16.ip.linodeusercontent.com']",Hak5 Cloud C2,2025-06-10,6/8/2025
 45.144.137.18,['crz.me'],Panda C2,2025-06-10,6/8/2025
 52.221.94.208,"['ec2-52-221-94-208.ap-southeast-1.compute.amazonaws.com', 'heminzenith.com', 'www.heminzenith.com']",Panda C2,2025-06-10,6/8/2025
 43.157.209.12,['freelits.com'],Panda C2,2025-06-10,6/8/2025
@@ -959,7 +959,7 @@ ip,domains,product,last_seen,first_seen
 8.148.20.113,[],Cobalt Strike C2,2025-06-10,6/8/2025
 46.31.77.178,['rdns.hostingdunyam.net'],DarkComet Trojan,2025-06-10,6/8/2025
 45.77.95.174,['45.77.95.174.vultrusercontent.com'],Panda C2,2025-06-10,6/8/2025
-118.178.192.36,[],Cobalt Strike C2,2025-06-10,6/8/2025
+118.178.192.36,[],Cobalt Strike,2025-06-10,6/8/2025
 154.8.233.224,['mincrosoft.com.cn'],Cobalt Strike,2025-06-10,6/8/2025
 8.210.78.137,[],Cobalt Strike,2025-06-10,6/8/2025
 80.78.30.127,['504e1e7f.host.njalla.net'],Sliver,2025-06-10,6/8/2025
@@ -2506,7 +2506,7 @@ ip,domains,product,last_seen,first_seen
 144.172.96.208,['208.96.172.144.static.cloudzy.com'],Sliver,2025-06-10,6/8/2025
 156.225.26.203,[],Panda C2,6/2/2025,6/2/2025
 113.44.148.65,['ecs-113-44-148-65.compute.hwclouds-dns.com'],Cobalt Strike,2025-06-10,6/8/2025
-147.182.245.220,['cloud2.mikebosland.com'],Hak5 Cloud C2,2025-06-10,6/8/2025
+147.182.245.220,[],Hak5 Cloud C2,2025-06-10,6/8/2025
 194.116.217.53,"['www.blockfolioai.info', 'blockfolioai.info']",Panda C2,2025-06-10,6/8/2025
 49.233.182.30,[],Cobalt Strike,2025-06-10,6/8/2025
 1.12.232.254,[],Cobalt Strike,2025-06-10,6/8/2025
@@ -2610,7 +2610,7 @@ ip,domains,product,last_seen,first_seen
 51.94.165.211,['ec2-51-94-165-211.eu-south-2.compute.amazonaws.com'],Metasploit,2025-06-10,6/8/2025
 41.143.207.121,[],Quasar RAT,2025-06-10,6/8/2025
 51.92.90.31,['ec2-51-92-90-31.eu-south-2.compute.amazonaws.com'],Metasploit,2025-06-10,6/8/2025
-47.117.125.219,['wiew.weihuikang.com'],Cobalt Strike,2025-06-10,6/8/2025
+47.117.125.219,[],Cobalt Strike,2025-06-10,6/8/2025
 18.230.226.189,['ec2-18-230-226-189.sa-east-1.compute.amazonaws.com'],Metasploit,2025-06-10,6/8/2025
 13.230.187.56,['ec2-13-230-187-56.ap-northeast-1.compute.amazonaws.com'],Metasploit,2025-06-10,6/8/2025
 18.143.150.152,['ec2-18-143-150-152.ap-southeast-1.compute.amazonaws.com'],Metasploit,2025-06-10,6/8/2025
@@ -2924,3 +2924,5 @@ ip,domains,product,last_seen,first_seen
 77.110.105.214,['indigobirds.aeza.network'],Sliver,2025-06-10,2025-06-10
 37.106.35.42,[],Poison Ivy Trojan,2025-06-10,2025-06-10
 45.204.197.6,[],Supershell C2,2025-06-10,2025-06-10
+3.26.231.244,['ec2-3-26-231-244.ap-southeast-2.compute.amazonaws.com'],Metasploit,2025-06-10,2025-06-10
+54.207.23.183,['ec2-54-207-23-183.sa-east-1.compute.amazonaws.com'],Metasploit,2025-06-10,2025-06-10
